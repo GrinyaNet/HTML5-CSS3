@@ -1,11 +1,10 @@
-body {
-    font-size: 24px;
-  }
+div {
+    display: inline;
+}
 
-  .Parag {
-    color: green;
-  }
-
-  .List {
-    color: orange;
-  }
+span {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
