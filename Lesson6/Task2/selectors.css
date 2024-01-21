@@ -1,0 +1,11 @@
+li {
+    margin-bottom: 16px;
+}
+ol {
+    background-color: green;
+    color: white;
+}
+ul {
+    background-color: orange;
+    color: white;
+}
