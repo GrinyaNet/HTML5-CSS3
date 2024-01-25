@@ -7,13 +7,13 @@
 }
 
 .navigation {   
-    height: 40px;
+    height: 31px;
 }
 
 .nav-list {        
-    line-height: 40px;
-    margin: 0px;
-    list-style: none;
+    line-height: 8px;
+    margin: 16px;
+    /*list-style: none;*/
 }
 
 .nav-item {   
