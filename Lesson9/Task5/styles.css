@@ -3,24 +3,23 @@
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navigation {   
-    height: 31px;
+    height: 40px;
 }
 
 .nav-list {        
-    line-height: 8px;
-    margin: 16px;
-    /*list-style: none;*/
+    line-height: 40px;
+    margin: 0px;
+    list-style: none;
 }
 
-.nav-item {   
-    height: 31px; 
-    display: inline;   
+.nav-item {
+    float: left;     
     color: white;
-    margin-right: 11px;    
+    margin-left:  16px;    
 }
 
 .content {
