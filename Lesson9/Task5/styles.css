@@ -6,18 +6,17 @@
     z-index: 1;
 }
 
-.navigation {
-    /*position: fixed;*/
+.navigation {   
     height: 40px;
 }
 
 .nav-list {
     line-height: 9px;
+    margin: 16px;
 }
 
 .nav-item {    
-    display: inline;
-    margin: 16px;
+    display: inline;   
     color: white;
 }
 
