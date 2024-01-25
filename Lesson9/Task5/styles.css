@@ -3,18 +3,19 @@
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
+    z-index: 1;
 }
 
 .navigation {
-    position: fixed;
+    /*position: fixed;*/
     height: 40px;
 }
 
 .nav-list {
-    line-height: 0em;
+    line-height: 9px;
 }
 
-.nav-item {
+.nav-item {    
     display: inline;
     margin: 16px;
     color: white;
@@ -26,7 +27,7 @@
 }
 
 .head {
-    position: relative;
+    position: absolute;
     background-color: aquamarine;
     height: 200px;
     width: 200px;
