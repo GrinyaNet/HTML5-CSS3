@@ -1,23 +1,24 @@
 .header {
     position: fixed;
     background-color: darkturquoise;
-    height: 80px;
+    height: 40px;
     width: 100%;
     z-index: 1;
 }
 
 .navigation {   
-    height: 80px;
+    height: 40px;
 }
 
 .nav-list {
-    line-height: 40px;
+    line-height: 9px;
     margin: 16px;
 }
 
 .nav-item {    
     display: inline;   
     color: white;
+    margin: 4px;
 }
 
 .content {
