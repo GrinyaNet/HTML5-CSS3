@@ -1,13 +1,13 @@
 .header {
     position: fixed;
     background-color: darkturquoise;
-    height: 80px;
+    height: 40px;
     width: 100%;
     z-index: 1;
 }
 
 .navigation {   
-    height: 40px;
+    height: 80px;
 }
 
 .nav-list {
