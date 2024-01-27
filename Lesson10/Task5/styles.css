@@ -1,0 +1,19 @@
+
+.articles-list {
+    display: flex;
+    /*box-sizing: border-box;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {    
+    text-align: center;
+}
+
+.article {
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+    flex-basis: 300px;
+    flex-shrink: 1;
+}
