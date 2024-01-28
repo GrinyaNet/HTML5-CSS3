@@ -9,6 +9,7 @@
 
 .gallery:hover {
     cursor: all-scroll;
+    overflow: auto;
 }
 
 .thumb {
