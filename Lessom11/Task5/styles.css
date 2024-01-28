@@ -4,6 +4,7 @@
 .gallery {
     /* margin: 8px; */
     display: flex;
+    flex-shrink: 0;
 }
 
 .gallery:hover {
