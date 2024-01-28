@@ -14,21 +14,30 @@
     * {
         box-sizing: border-box;        
     }
+    
     .text {
         position: absolute;
         display: flex;        
         margin: 16px;
-        text-decoration: underline 1px dotted black;
+        /* text-decoration-line: underline; */
+        /* text-decoration: underline 1px dotted black; */
+        /* border-bottom: 1px dotted black; */
         flex-direction: column;       
     }
 
-    .tooltip {      
+    .tooltip {
+      margin-top: 8px;            
         background-color: grey;
         color: white;
-        padding: 8px;
-        display: flex;
+        padding: 8px;        
+        display: none;
         bottom: -40px;
         border-radius: 4px;
+        /* text-decoration-line: none; */
+    }
+        
+    .text:hover .tooltip {
+      display: block;
     }
   </style>
 
