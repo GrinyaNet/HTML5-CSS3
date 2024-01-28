@@ -5,11 +5,12 @@
     /* margin: 8px; */
     display: flex;
     flex-shrink: 0;
+    overflow: auto;
 }
 
 .gallery:hover {
     cursor: all-scroll;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .thumb {
