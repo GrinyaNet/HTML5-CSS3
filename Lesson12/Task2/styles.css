@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -13,7 +17,7 @@ h1 {
 }
 
 div {
-    height: 201px;
+    height: 200px;
     background-color: coral;
     color: white;
     text-align: center;
