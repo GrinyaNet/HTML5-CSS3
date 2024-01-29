@@ -18,6 +18,8 @@ h1 {
 }
 
 div {
+    margin: 0px;
+    padding: 0px;
     height: 200px;
     background-color: coral;
     color: white;
