@@ -3,9 +3,10 @@
 }
 
 .image {
+    padding: 0;
     height: 200px;
     width: 200px;
-    margin: 16px;
+    margin: 15px;
     border: 1px dotted #808080;
     display: inline-block;
     background-position: center;
