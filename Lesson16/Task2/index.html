@@ -9,12 +9,14 @@
         integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
     <style>
         * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;            
         }
         
         .form-comtrol, .choose-gender {
-            margin: 16px;            
+            margin: 16px;
+            padding: 2px;            
         }       
     </style>
 </head>
@@ -42,7 +44,7 @@
             <label> Secret</label>
         </div>
         <div class="form-comtrol">
-            <textarea name="description" minlength="10" placeholder="Write description..."></textarea>
+            <textarea name="description" maxlength="10" placeholder="Write description..."></textarea>
         </div>
         <div class="form-comtrol">
             <button type="submit">Submit</button>
