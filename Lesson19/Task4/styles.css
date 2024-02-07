@@ -11,7 +11,7 @@ body {
     position: absolute;
     /* align-items: center; */
     top: 50%;
-    left: calc(65vh - 50px);
+    left: calc(63vh - 50px);
     height: 100px;
     width: 250px;
     border-radius: 10px;
