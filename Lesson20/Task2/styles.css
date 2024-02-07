@@ -20,7 +20,7 @@ body {
     background-image: linear-gradient(45deg, #ffff00, #ff0000);
     border: none;
     margin: auto;
-    animation: jump 0.4s 0,5s, spin 0.5s, hide 2.0s forwards;
+    animation: hide 2.0s forwards, jump 0.4s 0,5s, spin 0.5s;
 /* animation-name: jump, spin, hide;
 animation-delay: 0.4s, 0, 2s; 
 animation-duration: 0.5s, 0.5s, 1s;
