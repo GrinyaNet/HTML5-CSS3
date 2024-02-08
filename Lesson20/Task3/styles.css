@@ -13,9 +13,8 @@
 .spinner {
     position: absolute;
     top: 50%; 
-    left: 50%;
-    margin-top: 2px; 
-    /* transform: translate(50%, 50%); */
+    left: 50%;    
+    transform: translate(2px, 0);
     /* left: calc(59vh - 46px);     */
 }
 
