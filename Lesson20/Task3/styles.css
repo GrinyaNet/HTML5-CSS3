@@ -33,7 +33,7 @@
 .spinner-text {
     /* text-align: left; */
     font-family: monospace1;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     animation: blinking 2s linear infinite;    
 }
