@@ -12,11 +12,11 @@
 
 .spinner {
     position: absolute;
-    top: 49%; 
-    left: 47%; 
+    top: 50%; 
+    left: 50%; 
     /* transform: translate(50%, 50%); */
 
-    /* left: calc(62vh - 47px);     */
+    left: calc(100vh - 47px);    
 }
 
 .circle {
@@ -33,7 +33,7 @@
 
 .spinner-text {    
     font-family: monospace1;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     animation: blinking 2s linear infinite;    
 }
