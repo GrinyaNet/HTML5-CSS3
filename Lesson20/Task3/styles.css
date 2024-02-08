@@ -13,7 +13,7 @@
 .spinner {
     position: absolute;
     top: 50%;
-    left: 49%;
+    left: 48%;
 
     /* left: calc(62vh - 47px);     */
 }
