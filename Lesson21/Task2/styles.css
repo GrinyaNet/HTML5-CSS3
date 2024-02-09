@@ -5,14 +5,14 @@
 }
 
 .content {
-display: flex;
-min-height: 100vh;
+    display: flex;
+    min-height: 100vh;
 }
 
 .gallery {
     display: flex;
-width: 80%;
-background-color: #fa5;
+    width: 80%;
+    background-color: #fa5;
 }
 
 .image {
@@ -23,17 +23,17 @@ background-color: #fa5;
 
 .ideas {
     display: flex;
-width: 20%;
-background-color: #5af;
+    width: 20%;
+    background-color: #5af;
 }
 
 .idea {
     margin: auto;
-color: #fff;
-text-shadow: 700;
-text-transform: uppercase;
-padding: 4px;
-overflow: hidden;
-white-space: nowrap;
-text-overflow: ellipsis;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
