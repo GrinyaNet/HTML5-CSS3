@@ -9,21 +9,21 @@ html {
 }
 
 .font-in-px {
-font-size: 27px;
+    font-size: 27px;
 }
 
 .font-in-em {
-font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .font-in-vw {
-font-size: 5vw;
+    font-size: 5vw;
 }
 
 .font-in-percents {
-font-size: 150%;
+    font-size: 150%;
 }
 
 .font-in-rem {
-font-size: 1.5rem;
+    font-size: 1.5rem;
 }
