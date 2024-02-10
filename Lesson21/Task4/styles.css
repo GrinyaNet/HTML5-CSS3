@@ -25,6 +25,7 @@ html {
     background-color: #e5e5e5;
     padding: 0.5em;
     margin-top: auto;
+    text-align: center;
 }
 
 .navigation {
@@ -63,9 +64,12 @@ width: 20%;
 
 .nav-list-item {
     background-color: #808080;
-    /* color: #ffffff; */
+    color: #ffffff;
     line-height: 2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5em;    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .nav-list {
@@ -81,9 +85,9 @@ flex-direction: column;
     padding: 0 0.5em 0 0.5em;
     width: 20vh;
     color: #ffffff;
-    overflow: hidden;
+    /* overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
 }
 
 a {
