@@ -128,3 +128,8 @@ body {
 p {
     margin-top: 20px;
 }
+
+.section > h2 {
+    padding-left: 5px;
+    padding-top: 5px;
+}
