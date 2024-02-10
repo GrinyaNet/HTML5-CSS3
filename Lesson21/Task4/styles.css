@@ -130,6 +130,7 @@ p {
 }
 
 .section > h2 {
-    padding-left: 5px;
-    padding-top: 5px;
+    /* padding-left: 5px;
+    padding-top: 5px; */
+    align-items: center;
 }
