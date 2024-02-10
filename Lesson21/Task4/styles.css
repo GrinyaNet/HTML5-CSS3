@@ -103,6 +103,7 @@ a {
     display: flex;
     flex-direction: row;
     /* margin-top: auto; */
+    padding-left: 10px;
 
 }
 
@@ -110,4 +111,8 @@ body {
     display: flex;
     flex-direction: column;  
   height: 100vh;
+}
+
+p {
+    margin-top: 20px;
 }
