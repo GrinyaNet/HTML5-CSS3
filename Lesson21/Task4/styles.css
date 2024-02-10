@@ -37,8 +37,8 @@ margin-top: 30px;
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding: 0.5em;
     width: 60%;
     font-size: 1.25em;
@@ -73,6 +73,7 @@ margin-top: 30px;
 }
 
 .nav-list-item {
+    /* display: inline-block; */
     background-color: #808080;
     color: #ffffff;
     line-height: 2em;
@@ -92,10 +93,11 @@ flex-direction: column;
 
 .nav-list-link {
     /* display: flex; */
+    display: inline-block;
     padding: 0 0.5em 0 0.5em;
-    width: 20vh;
+    width: 100%;
     color: #ffffff;
-    /* overflow: hidden;
+    overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis; */
 }
