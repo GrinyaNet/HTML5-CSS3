@@ -60,9 +60,9 @@ html {
 .units-list {
     line-height: 1.75em;
     margin-top: 10px;
-    margin-left: 50px;
-    /* padding-left: 31px; */
-    padding-left: 0px;
+    /* margin-left: 50px; */
+    padding-left: 31px;
+    /* padding-left: 0px; */
 }
 
 .css-units {
@@ -70,6 +70,7 @@ html {
     color: #8b0000;
     font-size: 1.125em;
     font-weight: 700;
+    /* margin-left: 20px; */
 }
 
 .section__header {
