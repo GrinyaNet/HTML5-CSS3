@@ -117,10 +117,9 @@ html {
     /* line-height: 2em; */
     /* text-align: center; */
     color: #ffffff;
-    overflow: hidden;
-    white-space: nowrap;
+    overflow: hidden;    
     text-overflow: ellipsis;
-    
+    white-space: nowrap;
 }
 
 a {
