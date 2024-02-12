@@ -7,16 +7,16 @@
 html {
     /* display: flex;
     height: 100vh; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     color: #555;
     font-size: 16px;
-    min-width: 600px;
-    max-width: 1200px;
+    /* min-width: 600px;
+    max-width: 1200px; */
 }
 
 .header {
     /* width: 32px; */
-    height: 80px;
+    /* height: 80px; */
     color: #ffffff;
     text-align: center;
     background-image: linear-gradient(60deg, #ff0000, #ffa500);
@@ -26,7 +26,7 @@ html {
     /* display: flex; */
     background-color: #e5e5e5;
     padding: 0.5em;
-    margin-top: auto;
+    /* margin-top: auto; */
     text-align: center;
 }
 
@@ -39,29 +39,29 @@ html {
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding: 0.5em;
     width: 60%;
     font-size: 1.25em;
     /* margin-left: 5px; */
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 .news {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding: 0.5em;
     width: 20%;
-    margin-top: 35px;
-    margin-left: 10px;
+    /* margin-top: 35px;
+    margin-left: 10px; */
 }
 
 .units-list {
     line-height: 1.75em;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* margin-left: 50px; */
-    padding-left: 33px;
+    /* padding-left: 33px; */
     /* padding-left: 0px; */
     
 }
@@ -75,13 +75,13 @@ html {
 }
 
 .section__header {
-    display: flex;
+    /* display: flex; */
     font-size: 5vw;
-    align-items: center;
-    justify-content: center;
-    /* text-align: center;         */
-    margin: 25px 0px;
-    padding-right: 1.25px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;        
+    /* margin: 25px 0px;
+    padding-right: 1.25px; */
 
 }
 
@@ -122,13 +122,14 @@ html {
     white-space: nowrap;
 }
 
-a {
+/* a {
     text-decoration: none;
-}
+} */
 
 .main {
     display: flex;
-    flex-direction: row;
+    flex: 1;
+    /* flex-direction: row; */
     /* margin-top: auto; */
     /* padding-left: 10px; */
 
@@ -137,14 +138,14 @@ a {
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.section > p {
+/* .section > p {
     margin-left: -5px;
-    /* margin-top: 10px; */
-}
+    /* margin-top: 10px; 
+} */
 
-.news > p {
+/* .news > p {
     margin-top: 20px;
-}
+} */
