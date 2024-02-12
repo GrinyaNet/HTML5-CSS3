@@ -33,7 +33,7 @@ html {
 .navigation {
     padding: 0.5em;
     width: 20%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* margin-right: 25px; */
 
 }
@@ -87,30 +87,32 @@ html {
 
 .nav-list-item {
     /* display: inline-block; */
+    list-style-type: none;
     background-color: #808080;
     color: #ffffff;
-    height: 1.95em;
+    height: 2em;
     line-height: 2em;
-    padding-top: 0.05em;
-    margin-bottom: 0.4em;
+    /* padding-top: 0.05em; */
+    margin-bottom: 0.5em;
     /* overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;*/
 }
 
 .nav-list {
-    display: flex;
+    /* display: flex; */
     padding: 0;
-    list-style-type: none;
-    flex-direction: column;
+    /* list-style-type: none;
+    flex-direction: column; */
 
 }
 
 .nav-list-link {
     /* display: flex; */
     display: inline-block;
-    padding: 0 0.5em 0 0.5em;
+    padding: 0 0.5em;
     width: 100%;
+    text-decoration: none;
     /* height: 1.7em; */
     /* line-height: 2em; */
     /* text-align: center; */
