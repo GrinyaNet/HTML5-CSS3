@@ -53,7 +53,7 @@
   display: block;
 }
 
-.menu__item-text:hover {
+.menu__item_active:hover .menu__item-text {
   color: #9acd32;
 }
 
