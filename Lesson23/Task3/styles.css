@@ -10,7 +10,8 @@
 
 .menu {
   display: flex;
-  margin: 0px 0px 0px 0px;
+  padding: 0;
+  margin: 0px 0px 0px 3em;
   text-transform: uppercase;
   cursor: pointer;
   list-style-type: none;
