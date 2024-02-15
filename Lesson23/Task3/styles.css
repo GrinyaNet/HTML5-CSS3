@@ -54,7 +54,7 @@
 }
 
 .menu__item_active:hover .menu__item-text {
-  color: #9acd32;
+  background-color: #9acd32;
 }
 
 * {
