@@ -28,7 +28,7 @@
 }
 
 .menu__item_active {
-    color: #ffff00;
+    // color: #ffff00;
 }
 
 .submenu {
@@ -59,4 +59,12 @@ color: #fff;
 
  .menu__item:hover {
      background-color: #9acd32;
+ } 
+
+ .menu__item-text:nth-child(2) {
+    color: #9acd32;
+ }
+
+ .menu__item_active .menu__item-text {
+    color: #9acd32;
  }
